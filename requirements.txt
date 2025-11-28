@@ -1,28 +1,25 @@
-# Python 3.12 Compatible - Streamlit Cloud Tested
-streamlit==1.41.1
-plotly==5.24.1
-pandas==2.2.3
-numpy==1.26.4
-matplotlib==3.9.3
 
-# LangChain Stack
-langchain==0.3.13
-langchain-core==0.3.28
-langchain-community==0.3.13
-langchain-google-genai==2.1.12
-google-generativeai==0.8.3
+streamlit>=1.40.0
+plotly>=5.20.0
+pandas>=2.2.0
+numpy>=2.1.0
+matplotlib>=3.9.0
+
+# LangChain - Auto-resolve compatible versions
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0
 
 # Configuration
-python-dotenv==1.0.1
+python-dotenv>=1.0.0
 
 # Data Validation
-pydantic==2.10.3
-pydantic-settings==2.6.1
+pydantic>=2.10.0
 
 # HTTP Clients
-requests==2.32.3
-httpx==0.28.1
-aiohttp==3.11.11
+requests>=2.32.0
+httpx>=0.28.0
+aiohttp>=3.11.0
 
 # OpenAI
-openai==1.57.4
+openai>=1.50.0
