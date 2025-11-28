@@ -1,5 +1,5 @@
 🌍 EcoGuardian AI - Urban Ecosystem Regeneration System
-🏆 LangChain Agents Championship 2024 - Freestyle Track Submission
+🏆  Freestyle Track Submission
 
 📋 Table of Contents
 Overview
