@@ -1,9 +1,9 @@
-🌍 EcoGuardian AI - Urban Ecosystem Regeneration System
+# 🌍 EcoGuardian AI - Urban Ecosystem Regeneration System
 🏆  Freestyle Track Submission
 
-link to EcoGuardian AI :- https://ecoguardian-ai-2025.streamlit.app/
+# link to EcoGuardian AI :- https://ecoguardian-ai-2025.streamlit.app/
 
-📋 Table of Contents
+# 📋 Table of Contents
 Overview
 Why This unique
 Competition Requirements
@@ -19,9 +19,11 @@ Troubleshooting
 Team & Contact
 
 
-🎯 Overview
+# 🎯 Overview
 EcoGuardian AI is an autonomous multi-agent system that regenerates polluted urban environments through AI-powered coordination. Unlike traditional single-agent approaches, EcoGuardian orchestrates multiple specialized agents that work together to collect environmental data, predict optimal interventions using Google Gemini AI, and deploy eco-actions autonomously.
-🌟 Key Highlights
+
+
+# 🌟 Key Highlights
 
 🤖 3 Autonomous Agents working in parallel, sequential, and loop patterns
 🧠 Powered by Google Gemini 2.5 Flash for intelligent intervention predictions
@@ -32,7 +34,7 @@ EcoGuardian AI is an autonomous multi-agent system that regenerates polluted urb
 🌐 Beautiful Web UI built with Streamlit for interactive demonstrations
 
 
-🏆 Why This unique
+# 🏆 Why This unique
 1. Innovation (Freestyle Track)
 EcoGuardian is truly unclassifiable—it combines:
 
@@ -206,7 +208,8 @@ Google Gemini API Key
 OpenWeatherMap API Key
 
 Installation
-bash# 1. Clone the repository
+bash# 
+# 1. Clone the repository
 git clone https://github.com/your-repo/ecoguardian-ai.git
 cd ecoguardian-ai
 
