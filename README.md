@@ -146,6 +146,89 @@ Live workflow execution
 All features demonstrated
 
 
+# 📁 EcoGuardian AI - Complete Project Structure
+ECOGUARDIAN-AI/
+│
+├── 📂 agents/                          # Core AI Agents
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── action_deployer_agent.py        # Autonomous action execution agent
+│   ├── coordinator_agent.py            # A2A protocol orchestrator
+│   ├── data_collector_agent.py         # Parallel data gathering agent
+│   └── pollution_predictor_agent.py    # Gemini 2.5 powered predictor
+│
+├── 📂 config/                          # Configuration Management
+│   ├── __pycache__/
+│   ├── __init__.py
+│   └── settings.py                     # Environment variables & settings
+│
+├── 📂 data/                            # Data Storage (if any)
+│   └── (placeholder for datasets)
+│
+├── 📂 evaluation/                      # Agent Self-Evaluation
+│   ├── __pycache__/
+│   └── agent_evaluator.py              # Performance tracking & metrics
+│
+├── 📂 logs/                            # System Logs & Traces
+│   ├── ecoguardian_20251122.log        # Daily log files
+│   ├── ecoguardian_20251123.log
+│   ├── ecoguardian_20251124.log
+│   ├── ecoguardian_20251125.log
+│   ├── ecoguardian_20251126.log
+│   ├── ecoguardian_20251127.log
+│   ├── memory_export_*.json            # Memory bank exports
+│   └── traces_*.json                   # Execution traces
+│
+├── 📂 memory/                          # Memory & State Management
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── memory_bank.py                  # Long-term memory with compaction
+│   └── session_manager.py              # Session state tracking
+│
+├── 📂 observability/                   # Full Observability Stack
+│   ├── __pycache__/
+│   ├── __init__.py
+│   └── logger.py                       # Structured logging system
+│
+├── 📂 screenshots/                     # Demo Screenshots
+│   ├── carbon_tracker.jpeg             # Personal carbon tracker workflow
+│   ├── hybrid_orchestration.jpeg       # Hybrid workflow demo
+│   ├── multi_city.jpeg                 # Multi-city comparison
+│   ├── sequential_analysis.jpeg        # Sequential workflow
+│   └── system_metrics.jpeg             # Metrics dashboard
+│
+├── 📂 .streamlit/                      # Streamlit Configuration
+│   └── config.toml                     # Streamlit app settings
+│
+├── 📂 tools/                           # Agent Tools
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── carbon_calculator.py            # Custom carbon footprint tool
+│   ├── google_search_tool.py           # Built-in Google Search integration
+│   └── weather_api_tool.py             # Custom weather & AQI data tool
+│
+├── 📂 venv/                            # Virtual Environment
+│   ├── etc/
+│   ├── Include/
+│   ├── Lib/
+│   ├── Scripts/
+│   └── share/
+│
+├── 📄 .env                             # Environment Variables (API Keys)
+├── 📄 .gitignore                       # Git ignore rules
+├── 📄 app.py                           # Streamlit Web Interface (Main UI)
+├── 📄 clear_cache.py                   # Cache management utility
+├── 📄 diagnose_imports.py              # Import debugging tool
+├── 📄 fix_imports.py                   # Import fixing utility
+├── 📄 LICENSE                          # Project license
+├── 📄 main.py                          # Main System Orchestrator (CLI)
+├── 📄 pyvenv.cfg                       # Python virtual environment config
+├── 📄 README.md                        # Project documentation
+├── 📄 requirements.txt                 # Python dependencies
+├── 📄 runtime.txt                      # Python version for deployment
+└── 📄 test_import.py                   # Import testing utility
+
+
 🏗️ System Architecture
 ┌─────────────────────────────────────────────────────────────────┐
 │                  COORDINATOR AGENT (Orchestrator)                │
